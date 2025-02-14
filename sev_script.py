@@ -2,14 +2,17 @@ import openai
 import os
 import sqlite3
 import streamlit as st
-from dotenv import load_dotenv
+
+import openai
+import streamlit as st
+
+# Load API key from Streamlit secrets
+openai.api_key = st.secrets["OPENAI_API_KEY"]
+
 
 # Set page configuration FIRST (fixes previous error)
 st.set_page_config(page_title="S.P.E.A.K Program | Lumon Industries", page_icon="💬", layout="wide")
 
-# Load API key from .env
-load_dotenv()
-openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # Initialize OpenAI Client (New API v1.0+ Syntax)
 client = openai.Client(api_key=openai.api_key)
