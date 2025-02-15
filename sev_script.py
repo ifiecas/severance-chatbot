@@ -25,7 +25,7 @@ st.markdown("""
         .stMarkdown p, .stMarkdown h1, .stMarkdown h2, .stMarkdown h3, 
         .stMarkdown h4, .stMarkdown h5, .stMarkdown h6 {
             font-family: 'Helvetica', sans-serif !important;
-            font-size: 16px !important;
+            font-size: 14px !important;
             color: #222;
         }
         .stButton>button {
