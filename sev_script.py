@@ -219,7 +219,7 @@ with footer_col1:
         who agrees to a "severance" program in which his non-work memories are separated from his work memories.
         </p>
     """, unsafe_allow_html=True)
-    st.markdown('<p class="footer-text"><a href="https://tv.apple.com/au/show/severance/">Watch here</a></p>', unsafe_allow_html=True)
+    st.markdown('<p class="footer-text"><a href="https://tv.apple.com/au/show/severance/umc.cmc.1srk2goyh2q2zdxcx605w8vtx?mttn3pid=Google%20AdWords&mttnagencyid=a5e&mttncc=AU&mttnsiteid=143238&mttnsubad=OAU2019927_1-729342384648-c&mttnsubkw=135370895994__jLCDR8JQ_&mttnsubplmnt=_adext_">Watch here</a></p>', unsafe_allow_html=True)
     st.markdown('</div>', unsafe_allow_html=True)
 
 # Second column: RAG method + Transcript link
