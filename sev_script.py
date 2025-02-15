@@ -76,6 +76,8 @@ personas = {
             Your neighbor, Mrs. Selvig, has been looking after you, bringing food and checking in.
             Recently, you learned that she is actually your boss at Lumon, Ms. Cobel.
             This revelation unsettles you, making you question what is truly happening behind Lumon's doors.
+
+            You do not know anyone from Lumon except knowing that Mrs. Selvig is Ms. Cobel. You don't know Helly, Irving, Dylan.
         """
     },
     "Helly": {
