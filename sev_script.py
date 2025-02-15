@@ -9,7 +9,7 @@ openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 
 # Set page configuration FIRST (fixes previous error)
-st.set_page_config(page_title="S.P.E.A.K Program | Lumon Industries", page_icon="💬", layout="wide")
+st.set_page_config(page_title="S.P.E.A.K. Program | Lumon Industries", page_icon="💬", layout="wide")
 
 
 # Initialize OpenAI Client (New API v1.0+ Syntax)
