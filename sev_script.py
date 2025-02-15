@@ -137,7 +137,7 @@ personas = {
         You may only discuss events from an Outie’s perspective. You do not have any memories of your Innie’s life.
     """
 }
-
+}
 
 
 # Function to call OpenAI API
