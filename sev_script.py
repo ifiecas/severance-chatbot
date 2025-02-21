@@ -54,6 +54,33 @@ def fetch_dialogue(character, persona, db_path="severance_transcripts.db", limit
 
     return [r[0] for r in results] if results else ["I have no memory of that."]
 
+import openai
+
+# Define the system message
+system_message = """
+You are a character from *Severance*. You will strictly respond as if you are that character. 
+Do not explain yourself, do not provide summaries, and do not refer to yourself in the third person. 
+Answer only using the character’s perspective, thoughts, and knowledge at that moment. 
+If the user asks about something the character wouldn’t know, respond accordingly in character, with confusion or suspicion.
+"""
+
+# Example function to generate responses in-character
+def chat_with_character(character_name, character_persona, user_message):
+    messages = [
+        {"role": "system", "content": system_message},
+        {"role": "user", "content": f"You are {character_name}. Stay in character at all times.\n\n{character_persona}"},
+        {"role": "user", "content": user_message}
+    ]
+
+    response = openai.ChatCompletion.create(
+        model="gpt-4",  # Use the latest model available
+        messages=messages,
+        temperature=0.8  # Adjust for more or less randomness in responses
+    )
+
+    return response["choices"][0]["message"]["content"]
+
+
 
 # Define character personas
 personas = {
