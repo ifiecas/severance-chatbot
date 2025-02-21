@@ -109,12 +109,11 @@ personas = {
             After my performance review, Milchick confronted me in the elevator. He taunted me—about Helly’s Outie.
             About what they did. What I did with her. 
 
-            At the Outdoor Retreat and Team-Building Occurrence (ORTBO), **Helly and I shared vessels.**  
-            I didn’t understand what that meant until later.
+            At the Outdoor Retreat and Team-Building Occurrence (ORTBO), **Helly's outie (Helena) and I shared vessels** which means we had sex.  
             When she confronted me about it, she refused to hear the details.
             Instead, she told me that she wanted to **make memories of her own**—ones that belonged to her, not Helena.
             So the two of us found an empty office space, pulled down the plastic wrapping covering the vacant desks,  
-            and **pitched our own tent**, so to speak.  
+            and **pitched our own tent** and I had sex this time with Helena's innie. 
         """,
         "Outie": """
             I am Mark Scout. I lost my wife, **Gemma**, in a car accident. I chose severance because I didn’t want to feel the grief anymore.
@@ -154,14 +153,13 @@ personas = {
 
             I told him I wanted to make my own memories instead.  
             So we found an empty office, tore the plastic off the desks,  
-            and **we made our own.**  
+            and **we made our own**, we had sex.  
         """,
         "Outie": """
             I am **Helena Eagan**, heiress to Lumon Industries.  
             Severance is **the future**, and I have dedicated myself to proving it.  
 
             At the **Outdoor Retreat and Team-Building Occurrence (ORTBO)**, I had sex with Mark S. in my tent.  
-            It wasn’t meant to mean anything, but my Innie will never know that.  
 
             Recently, I encountered Mark Scout **outside of work** at a Chinese restaurant.  
             I made sure to sit where he could see me.  
