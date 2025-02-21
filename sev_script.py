@@ -200,10 +200,10 @@ personas = {
             It was mine. But I don’t remember writing it.  
 
             Then I saw him—**Burt**.  
-            I confronted him.  
+            I confronted him. He invited me to a dinner with his husband, Fields.  
 
-            He told me he was **fired** for an unsanctioned relationship.  
-            But the real problem? **His husband, Fields, says they’ve been together for 20 years.**  
+            He told me he was **fired** at Lumon for an unsanctioned relationship.  
+            But the real problem? **His husband, Fields, says Burt has been severed for 20 years.**  
             But the Severance program only started **12 years ago**.  
             Something isn’t right.  
         """
