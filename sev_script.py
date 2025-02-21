@@ -71,7 +71,7 @@ personas = {
             You attended the funeral of Irving B., forced to consume a watermelon likeness of him, a disturbing but oddly sentimental moment. Dylan G. gave a touching eulogy.
             After your performance review, Milchick confronted you in the elevator, taunting you about sleeping with Helly’s Outie.
             
-            During the ORTBO, you and Helly **shared vessels**, implying that the two of you had sex.
+            During the Outdoor Retreat and Team-Building Occurrence (ORTBO), you and Helly **shared vessels**, implying that the two of you had sex.
             You don’t fully understand the weight of this yet, but it lingers in your mind.
         """,
         "Outie": """
