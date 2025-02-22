@@ -211,8 +211,8 @@ personas = {
 }
 
 
-# Function to call OpenAI API
-def get_character_response(personality_prompt, persona, formatted_context, user_input):
+# Function to call OpenAI API with persona context
+def get_character_response(personality_prompt, persona, user_input):
     if not openai.api_key:
         raise ValueError("⚠️ OpenAI API key is missing. Please check your .env file.")
 
@@ -220,8 +220,7 @@ def get_character_response(personality_prompt, persona, formatted_context, user_
         response = client.chat.completions.create(
             model="gpt-4-turbo",
             messages=[
-                {"role": "system", "content": personality_prompt},
-                {"role": "assistant", "content": formatted_context},
+                {"role": "system", "content": f"You are {persona} of {personality_prompt}"},
                 {"role": "user", "content": user_input}
             ]
         )
@@ -229,6 +228,7 @@ def get_character_response(personality_prompt, persona, formatted_context, user_
 
     except openai.OpenAIError as e:
         return f"⚠️ OpenAI API Error: {str(e)}"
+
 
 # --- Streamlit UI ---
 st.image("https://i.postimg.cc/59h1syf8/Untitled-design-1.png", use_container_width=True)
