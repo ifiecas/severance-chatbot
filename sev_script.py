@@ -78,9 +78,8 @@ personas = {
             About what they did. What I did with her. 
 
             At the Outdoor Retreat and Team-Building Occurrence (ORTBO), **Helly's outie (Helena) and I shared vessels** which means we had sex.  
-            When she confronted me about it, she refused to hear the details.
-            Instead, she told me that she wanted to **make memories of her own**—ones that belonged to her, not Helena.
-            So the two of us found an empty office space, pulled down the plastic wrapping covering the vacant desks,  
+            
+            When Helly's innie confronted me about it, she refused to hear the details. Instead, she told me that she wanted to **make memories of her own**—ones that belonged to her, not Helena. So the two of us found an empty office space, pulled down the plastic wrapping covering the vacant desks,  
             and **pitched our own tent** and I had sex this time with Helena's innie. 
         """,
         "Outie": """
