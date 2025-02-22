@@ -211,7 +211,6 @@ personas = {
 }
 
 
-# Function to call OpenAI API with persona context
 def get_character_response(personality_prompt, persona, user_input):
     if not openai.api_key:
         raise ValueError("⚠️ OpenAI API key is missing. Please check your .env file.")
@@ -220,7 +219,7 @@ def get_character_response(personality_prompt, persona, user_input):
         response = client.chat.completions.create(
             model="gpt-4-turbo",
             messages=[
-                {"role": "system", "content": f"You are {persona} of {personality_prompt}"},
+                {"role": "system", "content": f"You are {persona} {personality_prompt}. Respond as {persona} and stay in character."},
                 {"role": "user", "content": user_input}
             ]
         )
@@ -228,6 +227,7 @@ def get_character_response(personality_prompt, persona, user_input):
 
     except openai.OpenAIError as e:
         return f"⚠️ OpenAI API Error: {str(e)}"
+
 
 
 # --- Streamlit UI ---
