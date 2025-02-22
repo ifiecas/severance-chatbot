@@ -245,7 +245,7 @@ with col2:
     if st.button("Submit for Refinement"):
         if user_input:
             personality_prompt = personas[character][persona]
-            response = get_character_response(personality_prompt, persona, "", user_input)
+            response = get_character_response(personality_prompt, persona, user_input)
             st.markdown(f"**{character} ({persona}):** {response}")
         else:
             st.warning("🔴 Your submission has been received. Compliance requires expression.")
