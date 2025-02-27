@@ -299,7 +299,7 @@ with footer_col2:
     st.markdown("""
         <p class="footer-text">
         This chatbot is powered by Retrieval-Augmented Generation (RAG), using transcripts from 
-        <a href="https://severance.wiki/">Severance Wiki</a> and OpenAI's GPT-4 model.  
+        <a href="https://severance.wiki/">Severance Wiki</a>, OpenAI's GPT-4 model, and deployed in Streamlit.  
         The responses are dynamically generated based on real character dialogues and AI processing.
         </p>
     """, unsafe_allow_html=True)
